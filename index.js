@@ -1,7 +1,7 @@
 var express = require('express');
 const mailgun = require("mailgun-js");
-const DOMAIN = "sandbox6454f713c37b40a7b5a9a79087c6dee1.mailgun.org";
-const objectMailgun = mailgun({apiKey: "10bc2e6ba7df0aa664f3626f1b39c53d-3e51f8d2-a3be42ba", domain: DOMAIN});
+const DOMAIN = "";
+const objectMailgun = mailgun({apiKey: "", domain: DOMAIN});
 const PORT = 3000;
 const app = express();
 
